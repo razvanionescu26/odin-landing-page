@@ -7,11 +7,6 @@
     box-sizing: border-box;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-}
-
 ul {
     list-style: none;
     padding: 0;
@@ -37,6 +32,10 @@ a {
 
 .logo, #hero-heading, #info-heading {
     font-weight: 900;
+}
+
+#info-heading, #quote {
+    color: #1F2937;
 }
 
 /* Wrapper for heading and hero section */
@@ -120,9 +119,9 @@ a {
 }
 
 #info-heading {
-    margin: 30px auto;
+    text-align: center;
+    margin: 30px 0px;
     font-size: 36px;
-    color: #1F2937;
 }
 
 .image {
@@ -130,4 +129,28 @@ a {
     border-radius: 10px;
     width: 175px;
     height: 175px;
+}
+
+/* Quote section styling */
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 300px;
+    margin: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote {
+    font-family: RobotoLightItalic;
+    font-size: 36px;
+    font-style: italic;
+}
+
+#quote-author {
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 900;
 }
