@@ -103,7 +103,7 @@ a {
 
 /* First content section styling */
 
-.first-part {
+.info-section {
     display: flex;
     justify-content: center;
     gap: 50px;
