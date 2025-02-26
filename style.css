@@ -17,12 +17,12 @@ a {
     text-decoration: none;
 }
 
-.common-hero-style, #sign-button {
+.common-hero-style, .sign-button {
     color: #E5E7EB;
     font-size: 18px;
 }
 
-.logo, #hero-heading {
+.logo, #hero-heading, #action-heading {
     color: #F9FAF8;
 }
 
@@ -30,7 +30,7 @@ a {
     background-color: #1F2937;
 }
 
-.logo, #hero-heading, #info-heading {
+.logo, #hero-heading, #info-heading, #action-heading, .call-to-action button.sign-button {
     font-weight: 900;
 }
 
@@ -82,7 +82,7 @@ a {
     width: 450px;
 }
 
-#sign-button {
+.sign-button {
     background-color: #3882F6;
     padding: 5px 25px;
     border: 0;
@@ -100,7 +100,7 @@ a {
     height: 200px;
 }
 
-/* First content section styling */
+/* Content section styling */
 
 .info-section {
     display: flex;
@@ -153,4 +153,25 @@ a {
     align-self: flex-end;
     font-size: 18px;
     font-weight: 900;
+}
+
+/* Call to action styling */
+
+.call-to-action {
+    background-color: #3882F6;
+    padding: 30px 80px;
+    border-radius: 10px;
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#action-heading {
+    font-size: 20px;
+}
+
+.call-to-action button.sign-button {
+    border: 2px solid white;
 }
