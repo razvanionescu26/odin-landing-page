@@ -17,7 +17,7 @@ a {
     text-decoration: none;
 }
 
-.common-hero-style, .sign-button {
+.common-hero-style, .sign-button, .footer {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -26,7 +26,7 @@ a {
     color: #F9FAF8;
 }
 
-.heading-and-hero, .header, .hero-section {
+.heading-and-hero, .header, .hero-section, .footer {
     background-color: #1F2937;
 }
 
@@ -174,4 +174,14 @@ a {
 
 .call-to-action button.sign-button {
     border: 2px solid white;
+}
+
+/* Footer section */
+
+.footer {
+    display: flex;
+    margin-top: 80px;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
 }
